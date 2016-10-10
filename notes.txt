@@ -1,0 +1,14 @@
+Packer Image:
+  - Install ruby
+  - Postgres connection lib
+  - Nginx
+  - Imagemagick
+
+  - Get AMI credentials
+
+AWS Setup
+  VPC
+    Two Subnets (different availability zones)
+    elastic load balancer
+    two ec2 nodes
+    one Postgres RDS
